@@ -12,6 +12,6 @@ import java.util.List;
 public interface NoticeMapper extends Mapper<Notice> {
 
     //查看所有公告
-    @Select("select * from notice")
+    @Select("select * from ds notice")
     List<Notice> findAll();
 }
